@@ -1,5 +1,7 @@
 # PHARMACY | فارماسي — Interactive Prototype
 
+This project was designed and developed with the assistance of AI, with my direction, customization, testing, and refinement.
+
 A responsive Arabic-first pharmacy shopping prototype built with plain HTML, CSS, and JavaScript.
 
 ## Run on a computer
