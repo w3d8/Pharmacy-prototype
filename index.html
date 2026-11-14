@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f2">
+  <meta name="description" content="PHARMACY — everyday skincare, haircare and wellness essentials.">
+  <title>PHARMACY | Everyday Care</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A LITTLE CARE GOES A LONG WAY <span>✦</span> Discover your everyday essentials</div>
+  <header class="site-header">
+    <button class="icon-btn mobile-menu" data-action="menu" aria-label="Open menu">☰</button>
+    <a class="brand" href="#" data-route="home"><span class="brand-mark">✳</span><span><b>PHARMACY</b><small>EVERYDAY CARE</small></span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#" data-route="home">Home</a><a href="#" data-route="shop">Shop</a><a href="#" data-route="categories">Categories</a><a href="#" data-route="help">Help</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" data-route="search" aria-label="Search">⌕</button>
+      <button class="icon-btn" data-route="wishlist" aria-label="Wishlist">♡</button>
+      <button class="icon-btn cart-shortcut" data-route="cart" aria-label="Cart">♧<i id="cartCount">0</i></button>
+      <button class="icon-btn" data-action="theme" aria-label="Switch theme">◐</button>
+      <button class="account-btn" data-route="account">Hi, <span id="accountName">Account</span></button>
+    </div>
+  </header>
+  <main id="app" class="page-shell" aria-live="polite"></main>
+  <footer class="footer">
+    <div class="footer-brand"><span class="brand-mark">✳</span><b>PHARMACY</b><p>Thoughtful care essentials, with a simpler shopping experience.</p></div>
+    <div><b>Quick links</b><a data-route="shop">All products</a><a data-route="categories">Categories</a><a data-route="account">My account</a></div>
+    <div><b>Customer care</b><a data-route="help">FAQs</a><a data-route="tracking">Track order</a><a data-route="prescription">Prescription demo</a></div>
+    <div class="footer-note">© 2026 PHARMACY. Demo prototype only — not a real pharmacy or medical service.</div>
+  </footer>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
